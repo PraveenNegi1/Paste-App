@@ -63,7 +63,7 @@ const Paste = () => {
                         </a>
                       </button>
                       <button
-                        className="p-2 rounded-[0.2rem] bg-white border border-[#c7c7c7]  hover:bg-transparent group hover:border-pink-500"
+                        className="p-4 rounded-[0.2rem] bg-white border border-[#c7c7c7]  hover:bg-transparent group hover:border-pink-500"
                         onClick={() => handleDelete(paste?._id)}
                       >
                         <Trash2
